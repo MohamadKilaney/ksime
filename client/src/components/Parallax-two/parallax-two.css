@@ -1,0 +1,40 @@
+
+.pic-pic2 {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    padding-top: 22px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.slider-title{
+    width: 41%;
+    text-align: center;
+    padding-top: 30vh;
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.content-2 {
+    padding: 20px;
+    transform: translate(8%, 5%);
+    width: 70%;
+    height: 450px;
+}
+
+
+@media (max-width: 991px) {
+    .slider-title{
+        width: 100%;
+    }
+    
+    .content-2 {
+        width: 100%;
+    }    
+
+    .pic-pic2 {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,54 @@
+
+.aa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.aa>.part1 {
+    height: 100%;
+    width: 66vw;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.aa>.part2 {
+    height: 100%;
+    width: 32.9vw;
+}
+
+.aa>.part2>.qq {
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.aa>.part2>.qqq {
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+
+}
+
+@media (max-width: 991px) {
+    .aa>.part1 {
+        height: 250px;
+        width: 100vw;
+    }
+
+    .aa>.part2>.qq {
+        height: 250px;
+        width: 100vw;
+    }
+
+    .aa>.part2>.qqq {
+        height: 250px;
+        width: 100vw;
+    }
+
+    .aa>.part2 {
+        height: 500px;
+        width: 100vw;
+    }
+}
