@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./ads.css";
 
 //import images
-import Ads1 from "../../images/creativity.jpg"
+import Ads1 from "../../images/ads/quadro.png"
 
 function Ads() {
     return (

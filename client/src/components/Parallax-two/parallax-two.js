@@ -5,6 +5,15 @@ import Slider from "react-slick";
 import Tableis from "../../images/is.png";
 import './parallax-two.css'
 
+import showProduct from '../../pages/showProduct/showProduct'
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 function ParallaxTwo() {
   var settings = {
     dots: true,
@@ -42,21 +51,29 @@ function ParallaxTwo() {
   };
 
   return (
-    <Parallax bgImage={Tableis} strength={700}>
-      <div className="pic-pic2">
+    <Router>
 
-        <Slider {...settings} className="content-2">
-          <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
-        </Slider>
-      </div>
-    </Parallax>
+      <Parallax bgImage={Tableis} strength={500}>
+        <div className="pic-pic2">
+          <Slider {...settings} className="content-2">
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+          </Slider>
+        </div>
+
+      </Parallax>
+
+
+    </Router>
+
   );
 };
+
+
 
 export default ParallaxTwo;

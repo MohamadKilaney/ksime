@@ -9,6 +9,7 @@ import Category from '../../components/category/category'
 import ParallaxOne from '../../components/Parallax-one/parallax-one'
 import ParallaxTwo from '../../components/Parallax-two/parallax-two'
 import Ads from '../../components/ads/ads'
+import Info from '../../components/info/info'
 
 import {
   BrowserRouter as Router,
@@ -20,7 +21,6 @@ import {
 
 function Home() {
   return (
-    <Router>
       <div className="Home">
         <Header />
         {/* <Navbar /> */}
@@ -28,9 +28,9 @@ function Home() {
         <Ads />
         <ParallaxTwo />
         <Category />
+        <Info />
         <Footer />
       </div >
-    </Router >
 
   );
 }
