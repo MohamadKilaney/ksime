@@ -15,8 +15,8 @@ import ShowProducts from './pages/showProduct/showProduct'
 function App() {
   return (
       <div className="App">
-        {/* <Home /> */}
-        <Products />
+        <Home />
+        {/* <Products /> */}
         {/* <ShowProducts /> */}
       </div >
   );
