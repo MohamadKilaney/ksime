@@ -8,7 +8,7 @@ import './parallax-one.css'
 import Pic1 from "../../images/elegance13.png"
 function ParallaxOne() {
     return (
-        <Parallax bgImage={Pic1} strength={150}>
+        <Parallax bgImage={Pic1} strength={350}>
             <div className="pic-pic1">
                 <div className="content">
                     <span>מיליון אפשרויות ריהוט לבית, למשרד ולגן במקום אחד </span><br /><br />
