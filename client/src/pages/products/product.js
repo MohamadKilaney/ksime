@@ -5,7 +5,7 @@ import Header from '../../components/header/header';
 import Navbar from '../../components/navbar/navbar';
 import Card from '../../components/cards/card';
 import Category from '../../components/category/category'
-import Pic1 from '../../images/francesca-tosolini-Mx_W2atEaDo-unsplash.png'
+import Pic1 from '../../images/chairs web 2.png'
 import { Parallax } from 'react-parallax';
 
 
@@ -29,14 +29,29 @@ function Products() {
     <div className="Products">
       <Header />
 
-      <Parallax bgImage={Pic1} strength={500}>
-        <div className="pic-pic1">
+      <Parallax bgImage={Pic1} strength={20}>
+        <div className="pic-pic2">
           <span className="title">chiars</span>
         </div>
+
+        <div className="r-category">
+          <a className="b-category">
+              kilaney
+          </a>
+          <a className="b-category">
+              kilaney
+          </a>
+          <a className="b-category">
+              kilaney
+          </a>
+          <a className="b-category">
+              kilaney
+          </a>
+        </div>
       </Parallax>
-      <div className="sortType">
-        Sort by    <Dropdown options={options} placeholder="popularity" className="test" />
-      </div>
+      {/* <div className="sortType">
+        Sort by    <Dropdown options={defaultOption} placeholder="popularity" className="test" />
+      </div> */}
 
 
       <div className="container">
