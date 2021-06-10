@@ -65,6 +65,9 @@
 @media (max-width: 991px) {
     .content {
         width: 100%;
-        transform: translate(0, 0);
+        top: 0%;
+        right: 50%;
+        transform: translate(50%, 50%);
+
     }
 }

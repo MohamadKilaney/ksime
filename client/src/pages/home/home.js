@@ -23,7 +23,6 @@ function Home() {
   return (
       <div className="Home">
         <Header />
-        {/* <Navbar /> */}
         <ParallaxOne />
         <Ads />
         <ParallaxTwo />

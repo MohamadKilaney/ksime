@@ -53,14 +53,13 @@
     width: 130px;
 }
 
-.header>.left-div>.menu {
-    display: none;
-}
+
 
 @media (max-width: 991px) {
     .header {
         padding: 10px 20px;
         flex-direction: column;
+        position: static;
     }
 
     .header>.logo {
@@ -79,10 +78,7 @@
         margin-top: 15px;
     }
 
-    .header>.left-div>.menu {
-        margin-top: 5px;
-        display: block;
-    }
+
 
     .header>.search button {
         right: 16px;

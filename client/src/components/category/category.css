@@ -1,5 +1,4 @@
-
-.category{
+.category {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -7,24 +6,28 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 15px;
+
 }
 
 .category>.cat {
     width: 320px;
     height: 320px;
     overflow: hidden;
-    /* border-radius: 50%; */
+
 }
 
-.category>.cat > img{
-    padding-top: 10px;
+.category>.cat>img {
+    margin-top: 10px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
     width: 320px;
     height: 320px;
-    /* border-radius: 50%; */
-    margin: 0 auto;
 }
 
-
-.category>.cat > img:hover {
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+.category>.cat>img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}

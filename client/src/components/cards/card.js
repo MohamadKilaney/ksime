@@ -1,19 +1,17 @@
 import React from 'react';
 import "./card.css";
 
-//import images
-import photo from '../../images/cross1.png'
 
-function Cards() {
+function Cards({photo,title,price}) {
     return (
         <div className="card">
             <img src={photo} className="images" />
             <div className="product_title">
-                כסא בר – דגם פרימה
+                {title}
             </div>
 
             <div className="product_price">
-            &#8362; 1500 
+            {price} 
             </div>
         </div>
     );

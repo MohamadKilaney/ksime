@@ -6,6 +6,7 @@ import Tableis from "../../images/is.png";
 import './parallax-two.css'
 
 import showProduct from '../../pages/showProduct/showProduct'
+import image1 from '../../images/350.jpg'
 
 import {
   BrowserRouter as Router,
@@ -54,15 +55,17 @@ function ParallaxTwo() {
     <Router>
 
       <Parallax bgImage={Tableis} strength={500}>
-        <div className="pic-pic2">
+        <div className="c-image">
+          <div className="c-title">
+            new category
+          </div>
           <Slider {...settings} className="content-2">
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
+            <Cards photo={image1} title="test1 , test2" price="0" className="card"/>
+            <Cards photo={image1} title="test1 , test2" price="0"/>
+            <Cards photo={image1} title="test1 , test2" price="0"/>
+            <Cards photo={image1} title="test1 , test2" price="0"/>
+            <Cards photo={image1} title="test1 , test2" price="0"/>
+ 
           </Slider>
         </div>
 

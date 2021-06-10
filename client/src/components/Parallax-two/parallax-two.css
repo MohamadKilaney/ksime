@@ -1,6 +1,5 @@
-
-.pic-pic2 {
-    height: 90vh;
+.c-image {
+    height: 80vh;
     width: 100%;
     display: flex;
     padding-top: 22px;
@@ -9,23 +8,35 @@
 }
 
 .content-2 {
-    padding: 20px;
-    transform: translate(8%, 22%);
+    padding: 5px;
+    transform: translate(8%, 12%);
     width: 85%;
     height: 600px;
 }
 
+.c-title {
+    color: white;
+    position: absolute;
+    font-size: 2.4rem;
+    font-weight: bold;
+    top: 2px;
+    right: 50%;
+    transform: translate(50%, 50%);
+
+}
+
+.card{
+    margin-top: 50px;
+}
 
 @media (max-width: 991px) {
-    .slider-title{
-        width: 100%;
+    .c-title {
+        font-size: 1.5rem;
+        margin-top: 15px;
     }
-    
-    .content-2 {
-        width: 100%;
-    }    
 
-    .pic-pic2 {
-        flex-direction: column;
+    .card{
+        margin: 0 auto;
+        margin-top: 50px;
     }
 }

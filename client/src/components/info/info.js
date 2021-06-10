@@ -10,40 +10,39 @@ function Info() {
     return (
         <div className="info">
 
-            <div className="item">
+            <div className="item1">
                 <img src={img1} />
                 <div className="text">
-                    מיליון פתרונות במקום אחד.<br/>
+                    מיליון פתרונות במקום אחד.<br />
                     לבית, למשרד..
                 </div>
             </div>
 
-            <div className="item">
+            <div className="item2">
                 <img src={img2} />
 
                 <div className="text">
-                    שירות לקוחות עם חיוך<br/>
+                    שירות לקוחות עם חיוך<br />
 
                     6992*
                 </div>
             </div>
 
-            <div className="item">
+            <div className="item3">
                 <img src={img3} />
 
                 <div className="text">
-                    אספקה מהירה<br/>
+                    אספקה מהירה<br />
                     לכל חלקי הארץ
                 </div>
             </div>
 
-            <div className="item">
+            <div className="item4">
                 <img src={img4} />
 
                 <div className="text">
-                5000 מ״ר אולמות תצוגה<br/>
-
-בסניפי הבית
+                    5000 מ״ר אולמות תצוגה<br />
+                    בסניפי הבית
                 </div>
             </div>
 

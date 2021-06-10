@@ -10,6 +10,8 @@ import photo1 from '../../images/500.jpg'
 import photo2 from '../../images/350.jpg'
 import photo3 from '../../images/creativity.jpg'
 
+import photo4 from '../../images/cross1.png'
+
 import Slider from "react-slick";
 import Cards from '../../components/cards/card';
 
@@ -64,6 +66,7 @@ function ShowProducts() {
 
       <div className="cont">
         <div className="images">
+
           <div className="imageList">
             <div className="ImageList1" onClick={changeSrc}>
               <img src={photo1} />
@@ -94,21 +97,18 @@ function ShowProducts() {
 
           <div className="des">
             هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها.
-
-
           </div>
         </div>
       </div>
 
 
       <Slider {...settings} className="content-2">
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
+            <Cards photo={photo4} title="aaaaaaaaaa" price="0"/>
+            <Cards photo={photo4} title="aaaaaaaaaa" price="0"/>
+            <Cards photo={photo4} title="aaaaaaaaaa" price="0"/>
+            <Cards photo={photo4} title="aaaaaaaaaa" price="0"/>
+            <Cards photo={photo4} title="aaaaaaaaaa" price="0"/>
+
           </Slider>
 
       <Info />

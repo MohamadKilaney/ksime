@@ -7,7 +7,6 @@ import "./header.css";
 import LocalMallOutlinedIcon from '@material-ui/icons/LocalMallOutlined';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import SearchIcon from '@material-ui/icons/Search';
-import MenuIcon from '@material-ui/icons/Menu';
 
 import logo from '../../images/logo ksime.png'
 function header() {
@@ -22,14 +21,7 @@ function header() {
                 <button type="submit"><SearchIcon /></button>
             </div>
             <div className="left-div">
-                <div className="icons">
-                    <FavoriteBorderIcon />
-                    <LocalMallOutlinedIcon />
-                    1500$
-                </div>
-                <div className="menu">
-                    <MenuIcon fontSize="large" />
-                </div>
+                052-4523183
             </div>
         </div>
     );

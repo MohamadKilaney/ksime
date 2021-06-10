@@ -2,29 +2,14 @@ import './product.css'
 
 //import components
 import Header from '../../components/header/header';
-import Navbar from '../../components/navbar/navbar';
 import Card from '../../components/cards/card';
-import Category from '../../components/category/category'
 import Pic1 from '../../images/chairs web 2.png'
 import { Parallax } from 'react-parallax';
 
-
-import Dropdown from 'react-dropdown';
-import 'react-dropdown/style.css';
-
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-
+import image1 from '../../images/cross1.png'
 
 function Products() {
-  const options = [
-    'lowest to highest', 'highest to lowest'
-  ];
-  const defaultOption = options[0];
+
   return (
     <div className="Products">
       <Header />
@@ -49,22 +34,22 @@ function Products() {
           </a>
         </div>
       </Parallax>
-      {/* <div className="sortType">
-        Sort by    <Dropdown options={defaultOption} placeholder="popularity" className="test" />
-      </div> */}
+
 
 
       <div className="container">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+      <Card photo={image1} title="test1 , test2" price="0" className="card"/>
+      <Card photo={image1} title="test1 , test2" price="0" className="card"/>
+      <Card photo={image1} title="test1 , test2" price="0" className="card"/>
+      <Card photo={image1} title="test1 , test2" price="0" className="card"/>
+      <Card photo={image1} title="test1 , test2" price="0" className="card"/>
+      <Card photo={image1} title="test1 , test2" price="0" className="card"/>
+      <Card photo={image1} title="test1 , test2" price="0" className="card"/>
+      <Card photo={image1} title="test1 , test2" price="0" className="card"/>
+      <Card photo={image1} title="test1 , test2" price="0" className="card"/>
+      <Card photo={image1} title="test1 , test2" price="0" className="card"/>
+      <Card photo={image1} title="test1 , test2" price="0" className="card"/>
+
       </div>
 
     </div >
