@@ -1,5 +1,5 @@
 import './product.css'
-
+import {useParams} from "react-router-dom";
 //import components
 import Header from '../../components/header/header';
 import Card from '../../components/cards/card';
@@ -9,6 +9,7 @@ import { Parallax } from 'react-parallax';
 import image1 from '../../images/cross1.png'
 
 function Products() {
+  let { id } = useParams();
 
   return (
     <div className="Products">
@@ -16,7 +17,7 @@ function Products() {
 
       <Parallax bgImage={Pic1} strength={20}>
         <div className="pic-pic2">
-          <span className="title">chiars</span>
+          <span className="title">{id}</span>
         </div>
 
         <div className="r-category">
